@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
 	return res.json({ timestamp: currentTimestamp });
 });
 
-const PORT = 3333;
+const PORT = 3000;
 app.listen(PORT, () => {
 	console.log(`listenning at http://localhost:${PORT}`);
 });
